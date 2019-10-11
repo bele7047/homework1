@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+  <html>
+  <html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style>
+    table, th, td {
+      border:1px solid black;
+      border-collapse: collapse;
+    }
+  </style>
+      <title> About Me</title>
+    </head>
+    <body>
+      <h1>Lehfedlt-Ehlinger, Benjamin</h1>
+      <div class="card">
+        <div class="card-body">
+      <p> I am outdoormans,
+        I like to ski, and I'm from Seattle. I'm in Computer Science to more
+        fully understand how computers work, so when I am old I still know
+         what the hell is going on.</p>
+       </div>
+     </div>
+      <h2> My Professional Profile</h2>
+      <div class="container">
+      <a href="https://github.com/bele7047" class="btn btn-info" role="button">Ben's Github</a>
+        <div>
+          <img class="rounded-circle" src="../HW_1/img/my_pic.jpg" alt=""
+          style="width:350px;height:500px;">
+        </div>
+      <br/>
+        <table style="width: 35%">
+          <tr>
+            <th>Project Name</th>
+            <th>Technologies Used: </th>
+          </tr>
+          <tr>
+            <th>Bomb Lab</th>
+            <th>GDB debugger</th>
+          </tr>
+          <tr>
+            <th>ClimHigh</th>
+            <th>PowerPoint</th>
+          </tr>
+          <tr>
+            <th>Sparki</th>
+            <th>Arduino</th>
+          </tr>
+        </table>
+      <br/>
+        <div class="container">
+          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#CountriesV" aria-expanded="false" aria-controls="CountriesV">
+      Countries Visited
+          </button>
+            </p>
+              <div class="collapse" id="CountriesV">
+                <div class="card card-body">
+                  <ul class="list-group">
+                    <li class="list-group-item">Canada</li>
+                    <li class="list-group-item">Newfoundland</li>
+                    <li class="list-group-item">Lower 48</li>
+                  </ul>
+                </div>
+              </div>
+
+          </div>
+          <br/>
+        <div class="container">
+          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#mInterests" aria-expanded="false" aria-controls="mInterests">
+      Interests
+          </button>
+            </p>
+            <div class="collapse" id="mInterests">
+              <div class="card card-body">
+          <ul class="list-group">
+            <li class="list-group-item">Biking</li>
+            <li class="list-group-item">Skiing</li>
+            <li class="list-group-item">Fishing</li>
+          </ul>
+          </div>
+        <br/>
+
+        <div class="container">
+
+  <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+    Click me!
+  </button>
+
+  <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Thanks for Clicking!</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          That's all, bye now
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Cya</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</div>
+    </body>
+  </html>
